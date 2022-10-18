@@ -119,17 +119,17 @@ const calculateBmi = (e) =>{
 
             // add color and display message
             calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `tu IMC es ${bmi} y estas delgado 😔`
+            calculateMessage.textContent = `tu IMC es ${bmi} y estas delgado`
 
         } else if(bmi < 25){
 
             calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `tu IMC es ${bmi} y estas sano 😁`
+            calculateMessage.textContent = `tu IMC es ${bmi} y tenes un peso saludable!`
 
         } else{
 
             calculateMessage.classList.add('color-green')
-            calculateMessage.textContent = `tu IMC es ${bmi} y tenes sobrepeso 😔`
+            calculateMessage.textContent = `tu IMC es ${bmi} y tenes sobrepeso`
 
         }
 
